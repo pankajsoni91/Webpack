@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/pankajsoni91/Webpack/issues"
   },
-  "homepage": "https://github.com/pankajsoni91/Webpack#readme"
+  "homepage": "https://github.com/pankajsoni91/Webpack#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.1"
+  }
 }
