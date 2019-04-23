@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack --watch --config webpack.config.js",
     "webpack": "webpack --config webpack.config.js",
-    "client:start": "webpack-dev-server --open"
+    "client:start": "webpack-dev-server --open",
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
