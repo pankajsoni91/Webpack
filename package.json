@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack --watch --config webpack.config.js",
     "webpack": "webpack --config webpack.config.js",
-    "client:start": "webpack-dev-server --open"
+    "client:start": "webpack-dev-server --open",
+    "server:watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "webpack": "^4.30.0"
   },
   "devDependencies": {
+    "nodemon": "^1.18.11",
     "webpack-cli": "^3.3.1",
     "webpack-dev-server": "^3.3.1"
   }
