@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  color: blue;
+  background-image: url("../images/testImage.jpeg");
+  background-repeat: no-repeat;
+}
+
+.testingHotModule {
+  color: green;
+}
