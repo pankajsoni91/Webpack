@@ -1,9 +1,10 @@
 import _ from "lodash";
-import "./css.css";
+import "./other.css";
+
 function component() {
   let element = document.createElement("div");
   // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(["Hello", "webpack2"], " ");
+  element.innerHTML = _.join(["Hello", "from other component"], " ");
   return element;
 }
 
