@@ -10,11 +10,14 @@ const compiler = webpack(config);
 // configuration file as a base.
 app.use(
   webpackDevMiddleware(compiler, {
+    noInfo: true,
     publicPath: config.output.publicPath
   })
 );
 
+app.use(require("webpack-hot-middleware")(compiler));
+
 // Serve the files on port 3000.
 app.listen(3000, function() {
-  console.log("Example app listening on port 3000!\n");
+  console.log("Example app listening on port 2000!\n");
 });
